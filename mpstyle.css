@@ -1,13 +1,14 @@
 body {
 
     background-color: rgba(254, 230, 254);
+    
 
 }
 
 
 .Htitle {
   color:rgb(117, 56, 92);
-  padding: 60px;
+  padding: 0px;
   font-family: 'Courier New', Courier, monospace; 
   text-align: center;
   font-size: 60px;
@@ -21,16 +22,38 @@ div.pagecontainer {
 
 }
 
-.footer{
-	position: relative;
-	z-index: 5;
-	background: #FFFFFF;
-	font: 1em/1.5em 'Voltaire';
-	font-size: 16px;
-	color: black;	
-	padding-top: 2%;
-	padding-left: 3%;
-	padding-right: 3%;
-	padding-bottom: 2%;
-	height: 8%;
+.bodytxt {
+    
+    color: rgb(117, 56, 92);
+   align-content: left;
+
+}
+
+
+
+
+.uc__art {
+    flex-basis: 50%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.uc__art img {
+    width: 45%;
+}
+
+
+
+
+footer{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(117, 56, 92);
+    height: auto;
+    width: 100vw;
+    padding-top: 20px;
+    color: #fff;
 }
