@@ -1,0 +1,36 @@
+body {
+
+    background-color: rgba(254, 230, 254);
+
+}
+
+
+.Htitle {
+  color:rgb(117, 56, 92);
+  padding: 60px;
+  font-family: 'Courier New', Courier, monospace; 
+  text-align: center;
+  font-size: 60px;
+ 
+}
+
+div.pagecontainer {
+
+  max-width: 1080px;
+  margin: 0 auto;
+
+}
+
+.footer{
+	position: relative;
+	z-index: 5;
+	background: #FFFFFF;
+	font: 1em/1.5em 'Voltaire';
+	font-size: 16px;
+	color: black;	
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	height: 8%;
+}
