@@ -5,6 +5,25 @@
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge"/>
     <link rel="stylesheet" href=mpstyle.css>
     <title>Personal Portfolio </title>
+    <script>
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+
+      // Get the header
+      var header = document.getElementById("myHeader");
+
+      // Get the offset position of the navbar
+      var sticky = header.offsetTop;
+
+      // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>
   </head>
   <body>
     <div class= "bodytxt">
@@ -18,7 +37,11 @@
           <a href="#resume">Resume</a>    
           <a href="#contact">Contact</a>
         </div>
-      </div>
+      
+   
+    </div>
+      
+      
 
 
    
@@ -44,8 +67,13 @@
             <h2>~ About ~</h2>
             <p> 
               Hello! I am a Computer Science student passionate about innovative, tech-driven solutions. 
-              My interests lie in Software Development, Web Development, Algorithms, and Quantum Computing. 
-              Scroll if you would like to learn more about my academic progression and projects.
+              My interests lie in HealthTech, EducationalTech, Software Development, and Web Development. 
+
+              <p> When I am not doing school or work you will find me crocheting (Fun Fact: I average about 3 projects a month), I also love doing yoga and running(currently training to run at Tamarack Ottawa this summer). </p>
+
+              Scroll if you would like to learn more about my Work Expereice, Volunteer, leadership and projects!
+
+
             </p>
 
             
@@ -54,7 +82,7 @@
 
           <section id="portfolio">
             
-              <h2>~ My Work ~</h2>
+              <h2>~ Projects ~</h2>
               
               <div class="project" id="project1">  <a href="./FoodGen.html" target="_blank"><img src="images\FlavourFusion.png" alt=""  height=200px width=200px></a> </div>
              <!-- <div class="project" id="project2">Project 2</div>
@@ -74,12 +102,21 @@
             
              <b>Carleton University Sept. 2022 - Present</b> 
               
-              <p >B.C.S Honours Computer Science, Minor in Biology  </p>
+             <i> <p >B.C.S Honours Computer Science, Minor in Biology  </p></i>
               Relevant Courses: Introduction to Computer Science I & II (Python & Java), 
               Discrete Structures I, Introduction to Programming & Problem Solving (C), 
               Intermediate Programming (C++), Linear Algebra, Calculus, Statistics
 
-            
+              <h3> Technologies </h3>
+              <b>Languages:</b>
+  
+             <p>Python, Java, HTML/CSS, C/C++, MATLAB, LabVIEW. </p>
+
+             <b>Development Tools:</b>
+  
+             <p>Visual Code, Github, IntelliJ </p>
+
+          
             
 
             <h3> Experience </h3>
@@ -108,20 +145,30 @@
              </ul>
  
 
-  <!--
+  
             <h3> Leadership and Volunteering  </h3>
-            <b>CIE, Carleton University</b>
 
-           <p>Administrative Assistant   Sept. 2023 - Present </p>
+           <b>Visual Arts Carleton </b>
+           <i> <p>Executive   May  2023 - Present </p></i>
            <ul>
-            <li>Offer support by effectively addressing inquiries from current and prospective students through various communication
-              channels.</li>
-            <li>Provide support in daily office operations, contributing to an organised and efficient workplace. </li>
-            <li>Utilize Microsoft Access and Excel for daily office operations</li>
-     
+            <li>Organise and host  weekly meetings, along with other executives, providing a fun and inclusive environment for students to engage in artistic activities.</li> 
+          </ul>
 
-            </ul>
-            -->
+         
+            <b>Innovation Hub, Carleton University</b>
+          <i><p>Incubator Participant  May  2023 - Present </p></i>
+           <ul>
+            <li>Developed a strong passion for problem-solving and a commitment to creating meaningful and effective solutions.</li> 
+            <li> Worked on my venture, from ideation and market research to project management. </li> 
+
+          </ul>
+
+          <b>Chonk Nation</b>
+          <i> <p>Event Volunteer   Oct.  2023 - Dec. 2023</p></i>
+           <ul>
+            <li>Took part in a wide variety of social events from fundraiser booths to game booths. </li> 
+          </ul>
+           
         </div>
 
 
