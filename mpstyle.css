@@ -3,12 +3,10 @@ body {
     background-color: #FEFAE0;
     margin: 0;
     padding: 0;
-  
-    
+
+    font-family: "Poppins", sans-serif;   
 
 }
-
-
 
 .Htitle {
   color : #D4A373;
@@ -54,6 +52,11 @@ div.pagecontainer {
 
 }
 
+.p{
+
+  text-align: left;
+}
+
 
 #about {
     background-color:#CCD5AE; 
@@ -84,8 +87,10 @@ div.pagecontainer {
 }
 
 
+
+/* Experience*/
 #resume{
-    background-color:#adc178; 
+  background-color:#CCD5AE;
     margin: 40px;
     padding: 15px;
     border-radius: 0.5%;
@@ -278,6 +283,62 @@ div.pagecontainer {
   }
 
 
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+  }
+
+  .container {
+    
+    background-color:#CCD5AE;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  h3 {
+    background-color: #CCD5AE;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .tab-content {
+    background-color: #CCD5AE;
+    padding: 50px 40px;
+  }
+  /* Tis is for the exp title */
+  .tab-content h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #7F5539;
+    font-weight: 600;
+    text-align: left;
+  }
+  .tab-content p {
+    text-align: justify;
+    line-height: 1.9;
+    letter-spacing: 0.4px;
+    color: #202238;
+  }
+  .tab-content div {
+    display: none;
+  }
+  .tab-content .active {
+    display: block;
+  }
+  .tabs .active {
+    background-color: #adc178;
+    color: #7F5539;
+  }
 
 
 
+
+
+
+
+  
