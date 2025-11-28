@@ -1,0 +1,151 @@
+{
+  "education": [
+    {
+      "institution": "Carleton University",
+      "period": "Sept. 2022 - Present",
+      "degree": "B.C.S Honours Computer Science, Minor in Biology",
+      "courses": [
+        "Intro. to Computer Science I & II (Python & Java)",
+        "Discrete Structures I & II",
+        "Systems Programming (C)",
+        "Software Engineering (C++)",
+        "Robotics",
+        "Fundamentals of Web Applications",
+        "Programming Paradigms"
+      ],
+      "technologies": {
+        "languages": ["C/C++", "Python", "Java", "HTML/CSS", "MATLAB"],
+        "tools": ["Visual Studio Code", "Github", "IntelliJ"],
+        "ci_cd": ["GitHub Actions", "Jenkins", "Jira"]
+      }
+    }
+  ],
+  "work": [
+    {
+      "organization": "SOLACE",
+      "location": "Ottawa, ON",
+      "role": "Software Developer Intern",
+      "period": "May 2025 - Present",
+      "details": [
+        "Optimized SVN-to-Git migration for core APIs, shrinking conversion time from weeks to hours and improving developer productivity.",
+        "Reduced repository size from 39 GB to 189 MB using a shell scripting and agentic AI to rewrite commit history, significantly improving performance and maintainability.",
+        "Debugged and tested the .NET API with .NET 9, identifying compatibility issues, raising Jira tickets, and updating XML documentation to improve developer clarity.",
+        "Built and deployed a full-stack trivia web application (React, Express.js, HTML/CSS, Vercel, Render) that supported 200+ users in 3 hours during a company scavenger hunt.",
+        "Collaborated with cross-functional teams in an Agile environment through daily scrums, sprint planning, and Jira task tracking."
+      ]
+    },
+    {
+      "organization": "FITA, Carleton University",
+      "location": "Ottawa, ON",
+      "role": "Student Front Desk Receptionist",
+      "period": "Sept. 2024 – Apr. 2025",
+      "details": [
+        "Provided timely support and coordinated appointments, demonstrating communication and teamwork."
+      ]
+    },
+    {
+      "organization": "STEM Camp",
+      "location": "Ottawa, ON",
+      "role": "Camp Counsellor",
+      "period": "June 2023 – August 2023 ; June 2024 – August 2024",
+      "details": [
+        "Led 20+ campers in STEM activities and presented complex programming and engineering concepts.",
+        "Taught Python fundamentals, encouraged critical thinking, and problem-solving.",
+        "Collaborated with coordinators to create an inclusive and engaging learning environment."
+      ]
+    },
+    {
+      "organization": "CIE, Carleton University",
+      "role": "Administrative Assistant",
+      "period": "Sept. 2023 - Apr. 2024",
+      "details": [
+        "Offered support by effectively addressing inquiries from current and prospective students through various communication channels.",
+        "Provided support in daily office operations, contributing to an organised and efficient workplace.",
+        "Utilized Microsoft Access and Excel for daily office operations"
+      ]
+    }
+  ],
+  "volunteering": [
+    {
+      "organization": "Carleton University Student Leadership Initiative (CUSLI)",
+      "role": "Program Cohort",
+      "period": "Sept. 2025 - Present",
+      "details": [
+        "Participate in workshops and training sessions focused on leadership development, communication skills, and community engagement."
+      ]
+    }, 
+    {
+      "organization": "Science Student Success Centre, Carleton University",
+      "role": "Peer mentor, Computer Science Team Lead",
+      "period": "Apr. 2024 - Present",
+      "details": [
+        "Mentor undergraduate science students weekly, guiding academic, career, and social development.",
+        "Co-led and served as MC for the Computer Science Industry Mixer, engaging 140+ students and 16 industry professionals.",
+        "Deliver workshops and announcements to science classes with 100+ students."
+      ]
+    },
+    {
+      "organization": "CUSA Women's Centre",
+      "role": "Event Volunteer",
+      "period": "Sept. 2023 - Sept. 2024",
+      "details": [
+        "Responsible for on-site and online execution of events and campaigns.",
+        "Helped organize the highly successful Female Founder Market, drawing over 500 attendees."
+      ]
+    },
+    {
+      "organization": "Visual Arts Carleton",
+      "role": "Executive",
+      "period": "May 2023 - Present",
+      "details": [
+        "Organise and host weekly meetings, along with other executives, providing a fun and inclusive environment for students to engage in artistic activities."
+      ]
+    },
+    {
+      "organization": "Innovation Hub, Carleton University",
+      "role": "Incubator Participant",
+      "period": "May 2023 - Dec. 2023",
+      "details": [
+        "Developed a strong passion for problem-solving and a commitment to creating meaningful and effective solutions.",
+        "Worked on my venture, from ideation and market research to project management."
+      ]
+    },
+    {
+      "organization": "Chonk Nation",
+      "role": "Event Volunteer",
+      "period": "Oct. 2023 - Dec. 2023",
+      "details": [
+        "Took part in a wide variety of social events from fundraiser booths to game booths.",
+        "Was responsible for the on-site and online execution of events and campaigns."
+      ]
+    },
+    {
+      "organization": "Engineering Institute of Canada",
+      "role": "Event Volunteer",
+      "period": "Apr. 2023",
+      "details": [
+        "Provided professional greetings to all event attendees and efficiently assisted them with seat arrangements, ensuring a seamless experience.",
+        "Proactively addressed inquiries and provided information about the event, demonstrating strong communication and customer service skills."
+      ]
+    },
+    {
+      "organization": "Greek Community School",
+      "role": "Volunteer Tutor",
+      "period": "Jan. 2022 - Feb. 2022",
+      "details": [
+        "Taught arithmetic Skills and English language Proficiency to students aged between 9 and 12 years in a classroom of approximately 15 students.",
+        "This role has helped me develop core skills in effective communication, leadership, creativity, time management and the ability to convey my thoughts effectively."
+      ]
+    },
+    {
+      "organization": "Education for Needy People Association (ENPA)",
+      "role": "Volunteer Tutor",
+      "period": "Jan. 2021 - Feb. 2021",
+      "details": [
+        "Helped students with their assignments and homework.",
+        "Computer Maintenance and organised the library"
+      ]
+    }
+  ]
+}
+

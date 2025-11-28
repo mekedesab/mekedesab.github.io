@@ -3,7 +3,7 @@ body {
     background-color: #FEFAE0;
     margin: 0;
     padding: 0;
-
+    padding-top: 70px; 
     font-family: "Poppins", sans-serif;   
 
 }
@@ -17,7 +17,7 @@ body {
  
 }
 
-
+/*
 .header-background {
     text-align: center;
     height: 100vh; 
@@ -25,7 +25,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}*/
+
+
 nav {
     width: 100%;
     position: absolute;
@@ -39,6 +41,7 @@ div.pagecontainer {
 
   max-width: 1080px;
   margin: 0 auto;
+  margin-top: 70px;
 
 }
 
@@ -52,10 +55,12 @@ div.pagecontainer {
 
 }
 
+/*
 .p{
 
   text-align: left;
-}
+  
+}*/
 
 
 #about {
@@ -124,17 +129,6 @@ div.pagecontainer {
 
 }
 
-/*Under Construction image */
-.uc__art {
-    flex-basis: 50%;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-}
-
-.uc__art img {
-    width: 45%;
-}
 
 /*Folder for projects */
 .folder{
@@ -216,10 +210,14 @@ div.pagecontainer {
 
 
 .header {
-    overflow: hidden;
-    background-color: #E9EDC9;
-    padding: 20px 10px;
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+  background-color: #d0de68;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(63, 50, 35, 0.967);
+}
   
   /* Style the header links */
   .header a {
@@ -232,6 +230,38 @@ div.pagecontainer {
     line-height: 25px;
     border-radius: 4px;
   }
+
+  .header .logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #7F5539;
+    text-decoration: none;
+  }
+
+  .header-nav {
+    display: flex;
+    gap: 15px; /* Adds spacing between links */
+  }
+
+  .header-nav a {
+  color: #7F5539;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.header-nav a:hover {
+  background-color: #a6d428;
+  color: white;
+}
+
+.header-nav a.active {
+  background-color: #7F5539;
+  color: white;
+}
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
   .header a.logo {
@@ -256,19 +286,21 @@ div.pagecontainer {
     float: right;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none; /* Hide navigation links */
   }
 
+  .header {
+    justify-content: space-between;
+  }
 
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
   
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
@@ -336,6 +368,11 @@ div.pagecontainer {
   }
 
 
+
+
+  ul{
+    text-align: left;
+  }
 
 
 
